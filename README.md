@@ -1,0 +1,2 @@
+# application-architecture-sample
+アプリケーション方式設計の成果物となるアプリケーション方式設計書のサンプルです。
