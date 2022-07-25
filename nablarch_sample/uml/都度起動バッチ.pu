@@ -1,0 +1,53 @@
+@startuml
+ジョブスケジューラ -> "都度起動バッチ実行制御基盤" as 基盤: 起動
+activate 基盤
+
+基盤 -> 基盤: 起動パラメータ解析
+
+create Action
+基盤 -> Action: 生成
+基盤 -> Action: 入力データを取得
+activate Action
+
+Action -> Action: 入力データを設定
+note right
+入力データの種類に応じたリソースの設定処理を行う。
+【例】
+・データベースであればSELECT文（条件込）の設定
+・ファイルであれば、ファイル名の設定
+end note
+
+create 入力データセット
+Action -> 入力データセット: 生成
+note right
+バッチ処理の対象データ
+（データベースやファイル等）
+end note
+
+Action --> 基盤: 入力データ
+deactivate Action
+
+loop 入力データが存在している間
+基盤 -> 基盤: 入力データから次に処理するレコードを読み込む
+activate 基盤
+基盤 -> 入力データセット: 次の1レコードを読み込む
+deactivate 基盤
+基盤 -> Action: データ処理
+activate Action
+Action -> Action: データ処理
+activate Action
+deactivate Action
+deactivate Action
+
+opt 処理したデータ件数が指定した件数に達した場合
+基盤 -> 基盤: トランザクションコミット
+基盤 -> Action: トランザクション正常終了処理
+end
+
+opt データ処理で例外が発生した場合
+基盤 -> 基盤: トランザクションロールバック
+基盤 -> Action: トランザクション異常終了処理
+end
+
+end
+@enduml
