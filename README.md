@@ -14,8 +14,8 @@
 
 - [nablarch_sample](https://github.com/Fintan-contents/application-architecture-sample/tree/master/nablarch_sample)配下のドキュメントをダウンロードしてください。
 
-※現時点（2019年2月）では方式設計書の本紙のみの公開であり、関連文書（アプリケーションセキュリティ設計書など）は未公開の状態となります。
+※現時点（2022年10月）では方式設計書の本紙のみの公開であり、関連文書（アプリケーションセキュリティ設計書など）は未公開の状態となります。
 
 ## ライセンス
 
-本コンテンツは<a href="https://fintan.jp/?page_id=201">Fintan コンテンツ 使用許諾条項</a>に準拠しています。
+本コンテンツは[Fintan コンテンツ 使用許諾条項](https://fintan.jp/page/295/#Fintanコンテンツ使用許諾条項)に準拠しています。
