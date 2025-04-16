@@ -30,6 +30,9 @@
 
 - [nablarch_sample_aws](https://github.com/Fintan-contents/application-architecture-sample/tree/master/nablarch_sample_aws)配下のドキュメントをダウンロードしてください。
 
+## バージョン履歴
+
+バージョン履歴は[こちら](https://github.com/Fintan-contents/application-architecture-sample/releases)をご確認ください。
 
 ## ライセンス
 
