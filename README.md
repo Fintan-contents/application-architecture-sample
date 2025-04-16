@@ -14,15 +14,22 @@
 
 ## 入手方法
 
-### オンプレミス環境で構築するアプリケーションを想定したサンプル
+アプリケーションを構築する環境に応じて、複数のサンプルを用意しています。  
+現時点（2025年4月）では以下の環境向けのサンプルを作成しています。
+
+- オンプレミス環境向け
+- AWS環境向け
+
+また、サンプルは方式設計書本紙のみの公開であり、関連文書（アプリケーションセキュリティ設計書など）は未公開の状態となります。
+
+### オンプレミス環境向けのサンプル
 
 - [nablarch_sample](https://github.com/Fintan-contents/application-architecture-sample/tree/master/nablarch_sample)配下のドキュメントをダウンロードしてください。
 
-### AWS環境で構築するアプリケーションを想定したサンプル
+### AWS環境向けのサンプル
 
 - [nablarch_sample_aws](https://github.com/Fintan-contents/application-architecture-sample/tree/master/nablarch_sample_aws)配下のドキュメントをダウンロードしてください。
 
-※現時点（2022年10月）では方式設計書の本紙のみの公開であり、関連文書（アプリケーションセキュリティ設計書など）は未公開の状態となります。
 
 ## ライセンス
 
