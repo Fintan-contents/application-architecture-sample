@@ -8,13 +8,27 @@
 この資料の目的は以下になります。
 - アプリケーション方式設計書の作成時に参考にすることで、方式設計時の生産性や品質の向上を図る。
 
+## 前提事項
+
+本アプリケーション方式設計書サンプルでは、アプリケーションフレームワークとして[Nablarch](https://fintan.jp/page/1868/)の採用を前提としています。
+
 ## 入手方法
 
-### Nablarch利用前提のアプリケーションのサンプル
+アプリケーションを構築する環境に応じて、以下のサンプルを用意しています。
+
+### オンプレミス環境向けのサンプル
 
 - [nablarch_sample](https://github.com/Fintan-contents/application-architecture-sample/tree/master/nablarch_sample)配下のドキュメントをダウンロードしてください。
 
-※現時点（2022年10月）では方式設計書の本紙のみの公開であり、関連文書（アプリケーションセキュリティ設計書など）は未公開の状態となります。
+### AWS環境向けのサンプル
+
+- [nablarch_sample_aws](https://github.com/Fintan-contents/application-architecture-sample/tree/master/nablarch_sample_aws)配下のドキュメントをダウンロードしてください。
+
+※サンプルは方式設計書本紙のみの公開であり、関連文書（アプリケーションセキュリティ設計書など）は公開していません。
+
+## バージョン履歴
+
+バージョン履歴は[こちら](https://github.com/Fintan-contents/application-architecture-sample/releases)をご確認ください。
 
 ## ライセンス
 
